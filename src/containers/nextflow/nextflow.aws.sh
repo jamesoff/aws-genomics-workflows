@@ -28,6 +28,7 @@ workDir = "$NF_WORKDIR"
 process.executor = "awsbatch"
 process.queue = "$NF_JOB_QUEUE"
 aws.batch.cliPath = "/home/ec2-user/miniconda/bin/aws"
+aws.batch.jobRole = "arn:aws:iam::008720747381:role/NextflowResources-IAMNextflowJobRole-6P7EG0D0XGKH"
 EOF
 
 echo "=== CONFIGURATION ==="
